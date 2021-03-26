@@ -57,11 +57,11 @@ The startup script comes with a set of options for customizing various things.
 
 ### Component Versions
 
-The default versions are always a combination of component versions which are considered stable.
+This branch is a experimental one, having 'latest' image for all components
 
 | Aquarius | Provider | Ganache  | ocean-contracts |
 | -------- | -------- | -------- | --------------- |
-| `v2.2.6` | `v0.4.7` | `latest` |  `V0.5.9`
+| `latest` | `latest` | `latest` |  `latest`
 
 You can override the Docker image tag used for a particular component by setting its associated environment variable before calling `start_ocean.sh`:
 
